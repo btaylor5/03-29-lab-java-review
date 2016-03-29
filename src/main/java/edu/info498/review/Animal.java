@@ -14,7 +14,7 @@ public class Animal
 		System.out.println(this+" walks.");
 	}
 
-	public void speak() {
+	public abstract void speak() {
 		//Be sure to override this!!
 	}
 
@@ -22,4 +22,3 @@ public class Animal
 		return "An Animal";
 	}
 }
-
